@@ -1,0 +1,31 @@
+{
+  "name": "passport-flyme",
+  "version": "0.0.1",
+  "description": "passport strategy for flyme.com",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jerryc8080/passport-flyme.git"
+  },
+  "keywords": [
+    "passport",
+    "flyme",
+    "auth",
+    "authentication",
+    "oauth2"
+  ],
+  "main": "./lib/passport-flyme",
+  "dependencies": {
+    "passport-oauth": "0.1.x"
+  },
+  "devDepencencies": {
+    "mocha": "*"
+  },
+  "author": {
+    "name": "Huang JerryC",
+    "email": "huangjerryc@gmail.com"
+  },
+  "license": "MIT"
+}
